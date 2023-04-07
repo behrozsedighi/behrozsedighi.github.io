@@ -8,7 +8,7 @@ const GithubInfo = (props)=>{
                 <Grid item container xs={12} md={8} direction="row" justifyContent="center" alignItems="center">
                     <Grid item container direction="row" justifyContent="center" alignItems="center" xs={11} md={12} sx={{borderRadius:"12px",backgroundColor:"customColor.BgElement",padding:"20px"}}>
                         <Typography variant="p"  sx={{fontSize:"14px",textAlign:"center"}}>
-                            In addition, I am active on GitHub and you can download my open source projects from there.
+                            In addition, I am active on <Typography variant="span" component="a" href="https://github.com/behrozsedighi"  sx={{fontSize:"14px",textAlign:"center",fontWeight:"600",color:"customColor.themeText",textDecorationLine: "underline"}}>GitHub</Typography> and you can download my open source projects from there.
                         </Typography>
                       
                         <ChartDesign data={props?.data} />
