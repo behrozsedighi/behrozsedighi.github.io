@@ -8,26 +8,26 @@ const AboutMe = ()=>{
          <Grid container direction="row" justifyContent="center" alignItems="center" sx={{mt:"10px"}}>
             <Grid item container xs={12} md={8} direction="row" justifyContent="center" alignItems="center">
                 <Grid item xs={12} md={4}>
-                    <Avatar alt="Behrouz Sedighi" src="/myImage.jpg" sx={{width:"130px",height:"130px",margin:"auto"}} />
+                    <Avatar alt="Behrouz Sedighi" src="/myImage.jpg" sx={{width:"130px",height:"130px",margin:{xs:"30px auto",md:"auto"}}} />
                 </Grid>
-                <Grid item container xs={11} md={8} sx={{borderRadius:"12px",backgroundColor:"customColor.BgElement",padding:"10px"}}>
+                <Grid item container xs={11} md={8} sx={{borderRadius:"12px",backgroundColor:"customColor.BgElement",padding:"20px"}}>
                     <Grid container  >
-                        <Typography variant="p" sx={{fontSize:"14px",mt:"20px"}}>
+                        <Typography variant="h2" sx={{fontSize:"14px",textAlign:"justify"}}>
                             I am 24 years old and have 7 years of experience in web software development. I am suitable for working in agile environments and have the ability to meet deadlines precisely. 
                         </Typography>
-                        <Typography variant="p" sx={{fontSize:"14px",mt:"20px"}}>
+                        <Typography variant="h2" sx={{fontSize:"14px",mt:"20px",textAlign:"justify"}}>
                             In addition, I have skills in fast learning and providing valuable solutions, as well as interpersonal skills.
                         </Typography>
-                        <Typography variant="p" sx={{fontSize:"14px",mt:"20px"}}>
+                        <Typography variant="h2" sx={{fontSize:"14px",mt:"20px",textAlign:"justify"}}>
                             I am the author of two books titled "When All Zeros are One" and "Graph Programming in Tia Portal Software" which automation engineers of the Iranian oil company use. 
                         </Typography>    
-                        <Typography variant="p" sx={{fontSize:"14px",mt:"20px"}}>
+                        <Typography variant="h2" sx={{fontSize:"14px",mt:"20px",textAlign:"justify"}}>
                             I have also received a certificate of appreciation from the publisher for the successful sales of the book "Graph Programming in Tia Portal Software".
                         </Typography>
-                        <Typography variant="p" sx={{fontSize:"14px",mt:"20px"}}>
+                        <Typography variant="h2" sx={{fontSize:"14px",mt:"20px",textAlign:"justify"}}>
                             Currently, I am working as a front-end developer at DataNegar Fanavaran Pars company.
                         </Typography>
-                        <Typography variant="p" sx={{fontSize:"14px",mt:"20px"}}>
+                        <Typography variant="h2" sx={{fontSize:"14px",mt:"20px",textAlign:"justify"}}>
                             Most of the time, I am online and responsive on my social media pages.
                         </Typography>
                     </Grid>
