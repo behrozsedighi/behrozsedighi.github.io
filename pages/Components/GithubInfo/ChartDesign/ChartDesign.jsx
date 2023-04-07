@@ -5,8 +5,8 @@ const ChartDesign = (props) =>{
         width:"10px",height:"10px",mt:"3px",borderRadius:"2px"
     }
     const ChangeColors={
-        '#9be9a8':"#3C274B",
-        '#40c463':"#f6d25129",
+        '#9be9a8':"#f6d25129",
+        '#40c463':"#f6d25147",
         '#30a14e':"#f6d25185",
         '#216e39':"#f6d251"
         
