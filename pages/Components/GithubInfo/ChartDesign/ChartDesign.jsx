@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid, Tooltip, Typography } from "@mui/material";
 
 const ChartDesign = (props) =>{
     const boxDes={
@@ -29,7 +29,7 @@ const ChartDesign = (props) =>{
                                     {
                                         x.contributionDays.map((d,index)=>{
                                             return(
-                                                <Grid key={index} item sx={boxDes} style={{backgroundColor:ChangeColors[d.color] === undefined ? "#3C274B" : ChangeColors[d.color] }} ></Grid>
+                                                <Tooltip key={index} title={d.contributionCount}><Grid  item sx={boxDes} style={{backgroundColor:ChangeColors[d.color] === undefined ? "#3C274B" : ChangeColors[d.color] }} ></Grid></Tooltip>
                                             )
                                         })
                                     }
@@ -39,6 +39,7 @@ const ChartDesign = (props) =>{
                         })
                     }    
                 </Grid>
+                
             </Grid>
         </>
     )
