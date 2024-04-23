@@ -61,7 +61,7 @@ export async function getServerSideProps(context) {
     return data
   }
   
-  const data = await getContributions('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', 'behrozsedighi')
+  const data = await getContributions(process.env.GITHUB_TOKEN, 'behrozsedighi')
 
 
 
