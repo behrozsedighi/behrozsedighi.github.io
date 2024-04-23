@@ -29,7 +29,7 @@ export default function Home(props) {
 
 
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   async function getContributions(token, username) {
     const headers = {
         'Authorization': `bearer ${token}`,
