@@ -18,7 +18,7 @@ export default function Home(props) {
       </Head>
       <Header />
       <AboutMe />
-      {props?.data && <GithubInfo data={props?.data} />}
+      <GithubInfo data={props?.data} />
       
       <Targets />
     </>

@@ -11,7 +11,7 @@ const GithubInfo = (props)=>{
                             In addition, I am active on <Typography variant="span" component="a" href="https://github.com/behrozsedighi"  sx={{fontSize:"14px",textAlign:"center",fontWeight:"600",color:"customColor.themeText",textDecorationLine: "underline"}}>GitHub</Typography> and you can download my open source projects from there.
                         </Typography>
                       
-                        <ChartDesign data={props?.data} />
+                        {props?.data && <ChartDesign data={props?.data} />}
                     </Grid>
                 </Grid>
             </Grid>
