@@ -61,7 +61,7 @@ export async function getStaticProps(context) {
     return data
   }
   
-  const data = await getContributions(process.env.token, 'behrozsedighi')
+  const data = await getContributions(process.env.TOKEN, 'behrozsedighi')
 
 
 
